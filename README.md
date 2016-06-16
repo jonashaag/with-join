@@ -149,7 +149,7 @@ select * from `districts` where `districts`.`id` in (?) order by `sort` asc
 2. Use `\SleepingOwl\WithJoin\WithJoinTrait` trait in every eloquent model you want to use this package features:
 
 	```php
-	class StreetImage extends \Eloquent
+	class StreetImage extends \Eloquent\Model
 	{
 		use \SleepingOwl\WithJoin\WithJoinTrait;
 	}
